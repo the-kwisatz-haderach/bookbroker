@@ -1,0 +1,27 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "user-queries.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "cd server && nodemon index.js",
+    "start-client": "cd client && npm start",
+    "reset-db": "psql -d project -f server/db/setup.sql"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltsthlm/s19-lastproject-mobjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saltsthlm/s19-lastproject-mobjs/issues"
+  },
+  "homepage": "https://github.com/saltsthlm/s19-lastproject-mobjs#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {}
+}
