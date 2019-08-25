@@ -5,6 +5,7 @@
   "main": "user-queries.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "start-server": "cd server && nodemon index.js",
     "start-client": "cd client && npm start",
     "reset-db": "psql -d project -f server/db/setup.sql"
@@ -23,5 +24,8 @@
   "devDependencies": {
     "nodemon": "^1.19.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "socket.io": "^2.2.0"
+  }
 }
