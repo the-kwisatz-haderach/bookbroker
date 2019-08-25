@@ -4,7 +4,6 @@
   "description": "",
   "main": "user-queries.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "start-server": "cd server && nodemon index.js",
     "start-client": "cd client && npm start",
